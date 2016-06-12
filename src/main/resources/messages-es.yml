@@ -14,7 +14,7 @@ commands.setlobby.description: 'Establece el lobby'
 commands.setlobby.confirmation: '&3Has establecido el lobby en tu ubicacion.'
 commands.setlobby.in-game: '&4No puedes establecer el lobby, estas en juego.'
 
-commands.setportal.description: 'Pone un portal en tu ubicacion'
+commands.setportal.description: 'Pon un portal en tu ubicacion'
 commands.setportal.confirmation: '&3Has puesto un portal en tu ubicacion.'
 commands.setportal.in-game: '&4No puedes establecer un portal, estas en un juego.'
 
@@ -22,10 +22,10 @@ commands.delportal.description: 'Remueve el ultimo portal establecido'
 commands.delportal.confirmation: '&3Portal removido en %s'
 commands.delportal.error-no-portals: '&4No hay portales establecidos'
 
-commands.cancel.description: 'Cancela los juegos actuales con la ID dada'
+commands.cancel.description: 'Cancela las partidas actuales con la ID dada'
 commands.cancel.argument-not-integer: '&c%s&4 no es un integrante!'
-commands.cancel.no-games-with-id: '&4No hay ningun juego con el ID &c%s&4.'
-commands.cancel.confirmation: '&3Cancelando juego &2%s&3.'
+commands.cancel.no-games-with-id: '&4No hay ninguna partida con la ID &c%s&4.'
+commands.cancel.confirmation: '&3Cancelando partida &2%s&3.'
 
 commands.status.description: 'Da el estado de los juegos actuales'
 commands.status.header: '&9 -- &2SkyWars Estado&9 --'
@@ -60,7 +60,7 @@ commands.kit.chose-kit-with-cost: '&3Estas usando el kit &2%1$s&3. Este kit te v
 commands.kit.how-to-remove: '&3Puedes &2/sw kit remove&3 para parar de usar este kit.'
 commands.kit.removed-kit: '&3Ya no estas usando kits.'
 # commands.kit.no-kit-removed is untranslated.
-commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
+commands.kit.no-access: '&4 No tienes accesoa  ese kit &c%s&4.'
 commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3Actualmente estas usando el kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Actualmente estas usando el kit &2%1$s&3. Este kit cuesta &2%2$s&3 por round.'
@@ -115,7 +115,7 @@ messages.report-disabled: '&4Los reportes han sido deshabilitados en este Servid
 game.death.killed-by-player-and-void: '&2¡%s&a empujo a &2%s&a al vacío!'
 game.death.killed-by-void: '&2¡%s&a ha saltado a la zona oscura!'
 game.death.killed-by-player: '&2%s&a mato a &2%s&a!'
-game.death.killed-by-environment: '&2%s&a was killed!'
+game.death.killed-by-environment: '&2%s&a a sido eliminado!'
 game.death.forfeited-while-attacked: '&2%s&a ha sido forzado a perder por &2%s&a!'
 game.death.forfeited: '&2%s&a perdio!'
 
